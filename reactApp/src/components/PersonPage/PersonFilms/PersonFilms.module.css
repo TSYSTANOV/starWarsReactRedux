@@ -1,0 +1,29 @@
+.wrapper {
+  margin-left: var(--spacing-large);
+  padding: var(--spacing-medium) 0;
+}
+.list {
+  list-style-type: none;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: var(--spacing-small);
+}
+.item_episode {
+  padding: var(--spacing-small);
+  border-radius: var(--border-radius-small);
+  background-color: var(--color-red);
+  color: var(--color-dark-white);
+}
+.item_column {
+  width: 20px;
+  font-weight: var(--font-bold);
+  text-align: center;
+  color: var(--color-dark-white);
+}
+.item_title {
+  color: var(--color-dark-white);
+  text-shadow: var(--text-shadow-yellow);
+}

@@ -1,0 +1,23 @@
+.container {
+  list-style-type: none;
+}
+.wrapper {
+  width: 300px;
+  padding: var(--spacing-medium);
+  margin-left: var(--spacing-large);
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: var(--border-radius-medium);
+  color: var(--color-dark-white);
+}
+.item {
+  padding: var(--spacing-small);
+}
+.item_title {
+  text-shadow: var(--text-shadow-blue);
+}
+@media screen and(max-width:700px) {
+  .wrapper {
+    width: 100%;
+    margin: 0;
+  }
+}

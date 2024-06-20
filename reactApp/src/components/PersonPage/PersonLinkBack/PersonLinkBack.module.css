@@ -1,0 +1,21 @@
+.link {
+  display: inline-flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  font-weight: var(--font-bold);
+  color: var(--color-yellow);
+  gap: 10px;
+  transition: 0.2s;
+}
+.link:hover {
+  transform: scale(1.05);
+}
+.img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  object-position: center center;
+  color: var(--color-yellow);
+}

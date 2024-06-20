@@ -1,0 +1,26 @@
+.wrapper {
+  max-width: var(--width-max);
+  margin: auto;
+  padding: var(--spacing-large) 0;
+}
+@media screen and (max-width: 1400px) {
+  .wrapper {
+    padding: var(--spacing-large) var(--spacing-large);
+  }
+}
+.spinner {
+  width: 130px;
+  height: 130px;
+  border: 10px solid var(--fiolet);
+  border-top: 10px solid transparent;
+  border-radius: 50%;
+  animation: circleSpin 0.6s ease-in-out infinite;
+}
+@keyframes circleSpin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
